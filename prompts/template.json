@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "genre_input",
+        "industry_input",
+        "time_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Generate an analysis of a {genre_input} {industry_input} {time_input} movie. Discuss its common themes, storytelling style, and audience appeal. Mention notable films from this category and highlight what makes this genre unique within the {industry_input} industry.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
